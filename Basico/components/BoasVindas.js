@@ -21,13 +21,13 @@ function BoasVindas(props) {
         );
     }
 
-  const _limpar = () => {
+  }
+
+    const _limpar = () => {
       setNome('');
       setSobrenome('');
       setMostraMensagem(false);
-  }
-
-  }
+    }
 
   return (
     <View style={styles.container}>
